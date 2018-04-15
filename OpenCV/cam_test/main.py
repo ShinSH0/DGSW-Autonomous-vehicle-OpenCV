@@ -1,4 +1,7 @@
 import cv2
+
+xhost = +local:root
+xhost = +localhost
 cap = cv2.VideoCapture(0) #0 or -1
 while cap.isOpened():
 	ret, img = cap.read()
